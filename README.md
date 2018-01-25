@@ -1,7 +1,5 @@
 # CIM540
 
-## Amanda L'Hussier
+## InstaTasty
 
-This is my super awesome repo for this amazing class!
-
-[Visit Google.com](http://www.google.com)
+InstaTasty is an app that plays "Tasty" videos and instantly makes the dish for you. You connect this app to a machine that produces all types of food. 
