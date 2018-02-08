@@ -23,7 +23,7 @@ function setup() {
     noseColor = "red";
 
   });
- //below is how to creat a drop down selection with eye color options
+ //below is how to create a drop down selection with eye color options
   sel = createSelect();
   sel.option("blue");
   sel.option("green");
