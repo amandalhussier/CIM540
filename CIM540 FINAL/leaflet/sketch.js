@@ -19,6 +19,25 @@ var myMap;
 var canvas;
 var meteorites;
 
+var imageSize = 30;
+
+var cheetah;
+var harpy;
+var scholar;
+
+
+
+
+//Whenever I input this, the code breaks.
+
+function preload(){
+  cheetah = loadImage("images/Chetah.png");
+  // harpy = loadImage("Harpy.png");
+  // scholar = loadImage("Scholarship.png");
+
+
+}
+
 function setup() {
   canvas = createCanvas(800, 700);
 
@@ -70,21 +89,23 @@ function drawMeteorites() {
         text(textInfo, pos.x, pos.y);
       }
 
+
+
 //UM Scholarships, Miami
       if(name == "Miami"){
-        //show image
+        image(cheetah, pos.x, pos.y, imageSize, imageSize); //scholar
         console.log(name);
       }
 
 //Harpy Eagle,
-      if(name == "Miami"){
-        //show image
+      if(name == "Panama"){
+image(harpy, imageSize, imageSize); //harpy
         console.log(name);
       }
 
 //Cheetah,
-      if(name == "Miami"){
-        //show image
+      if(name == "South Africa"){
+image(cheetah, imageSize, imageSize); //cheetah
         console.log(name);
       }
 
@@ -98,7 +119,6 @@ function drawMeteorites() {
         //show image
         console.log(name);
       }
-
     }
   }
 }
