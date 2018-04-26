@@ -70,13 +70,34 @@ function drawMeteorites() {
         text(textInfo, pos.x, pos.y);
       }
 
+//UM Scholarships, Miami
       if(name == "Miami"){
         //show image
         console.log(name);
       }
 
+//Harpy Eagle,
+      if(name == "Miami"){
+        //show image
+        console.log(name);
+      }
 
+//Cheetah,
+      if(name == "Miami"){
+        //show image
+        console.log(name);
+      }
 
+//UF Scholarships, Gainsville
+      if(name == "Miami"){
+        //show image
+        console.log(name);
+      }
+//Elephant,
+      if(name == "Miami"){
+        //show image
+        console.log(name);
+      }
 
     }
   }
