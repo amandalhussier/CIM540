@@ -89,8 +89,6 @@ function drawMeteorites() {
         text(textInfo, pos.x, pos.y);
       }
 
-
-
 //UM Scholarships, Miami
       if(name == "Miami"){
         image(cheetah, pos.x, pos.y, imageSize, imageSize); //scholar
