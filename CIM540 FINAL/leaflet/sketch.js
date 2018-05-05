@@ -22,18 +22,26 @@ var meteorites;
 var imageSize = 30;
 
 var cheetah;
+var croc;
 var harpy;
+var eco;
+var elephant;
+var jaguar;
 var scholar;
+var sloth;
 
 
 
-
-//Whenever I input this, the code breaks.
 
 function preload(){
-  cheetah = loadImage("images/Chetah.png");
-  // harpy = loadImage("Harpy.png");
-  // scholar = loadImage("Scholarship.png");
+  cheetah = loadImage("images/Cheetah.png");
+  croc = loadImage("images/Croc.png");
+  harpy = loadImage("images/Eagle.png");
+  eco = loadImage("images/Eco.png");
+  elephant = loadImage("images/Elephant.png");
+  jaguar = loadImage("images/Jaguar.png");
+  scholar = loadImage("images/Scholarship.png");
+  sloth = loadImage("images/Scholarship.png");
 
 
 }
@@ -89,34 +97,60 @@ function drawMeteorites() {
         text(textInfo, pos.x, pos.y);
       }
 
-//UM Scholarships, Miami
-      if(name == "Miami"){
-        image(cheetah, pos.x, pos.y, imageSize, imageSize); //scholar
+//Cheetah,
+      if(name == "South Africa"){
+        image(cheetah, pos.x, pos.y, imageSize, imageSize); //cheetah
+        console.log(name);
+      }
+
+//Croc,
+      if(name == "South Africa"){
+        image(croc, pos.x, pos.y, imageSize, imageSize); //croc
         console.log(name);
       }
 
 //Harpy Eagle,
       if(name == "Panama"){
-image(harpy, imageSize, imageSize); //harpy
+        image(harpy, pos.x, pos.y, imageSize, imageSize); //harpy
+        console.log(name);
+            }
+
+//Eco
+      if(name == "South Africa"){
+        image(eco, pos.x, pos.y, imageSize, imageSize); //eco
         console.log(name);
       }
 
-//Cheetah,
-      if(name == "South Africa"){
-image(cheetah, imageSize, imageSize); //cheetah
+//Elephant
+      if(name == "Miami"){
+        image(elephant, pos.x, pos.y, imageSize, imageSize); //elephant
+        console.log(name);
+      }
+
+//Jaguar
+      if(name == "Miami"){
+        image(jaguar, pos.x, pos.y, imageSize, imageSize); //jaguar
+        console.log(name);
+      }
+
+//UM Scholarships, Miami
+      if(name == "Miami"){
+        image(scholar, pos.x, pos.y, imageSize, imageSize); //scholar
         console.log(name);
       }
 
 //UF Scholarships, Gainsville
       if(name == "Miami"){
-        //show image
+        image(scholar, pos.x, pos.y, imageSize, imageSize); //scholar
         console.log(name);
       }
-//Elephant,
+
+//Sloth
       if(name == "Miami"){
-        //show image
+        image(sloth, pos.x, pos.y, imageSize, imageSize); //eco
         console.log(name);
       }
+
     }
   }
 }
