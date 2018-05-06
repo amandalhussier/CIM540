@@ -88,13 +88,12 @@ function drawMeteorites() {
       // meteorite (https://en.wikipedia.org/wiki/Hoba_meteorite)
       //var size = meteorites.getString(i, 'mass (g)');
       //size = map(size, 558, 60000000, 1, 25) + myMap.zoom();
-      ellipse(pos.x, pos.y, 20, 20);
 
 
-      var cityDist  = dist(mouseX,mouseY, pos.x, pos.y);
+      var cityDist  = dist(mouseX,mouseY, pos.x + 10 , pos.y + 10 );
 
       if(cityDist < 20){
-        text(textInfo, pos.x, pos.y);
+        text(textInfo, pos.x + 30 , pos.y + 30 );
       }
 
 //Cheetah,
@@ -104,7 +103,7 @@ function drawMeteorites() {
       }
 
 //Croc,
-      if(name == "South Africa"){
+      if(name == "Cuba"){
         image(croc, pos.x, pos.y, imageSize, imageSize); //croc
         console.log(name);
       }
@@ -116,19 +115,19 @@ function drawMeteorites() {
             }
 
 //Eco
-      if(name == "South Africa"){
+      if(name == "Florida"){
         image(eco, pos.x, pos.y, imageSize, imageSize); //eco
         console.log(name);
       }
 
 //Elephant
-      if(name == "Miami"){
+      if(name == "India"){
         image(elephant, pos.x, pos.y, imageSize, imageSize); //elephant
         console.log(name);
       }
 
 //Jaguar
-      if(name == "Miami"){
+      if(name == "Colombia"){
         image(jaguar, pos.x, pos.y, imageSize, imageSize); //jaguar
         console.log(name);
       }
@@ -140,13 +139,13 @@ function drawMeteorites() {
       }
 
 //UF Scholarships, Gainsville
-      if(name == "Miami"){
+      if(name == "Gainsville"){
         image(scholar, pos.x, pos.y, imageSize, imageSize); //scholar
         console.log(name);
       }
 
 //Sloth
-      if(name == "Miami"){
+      if(name == "Panama2"){
         image(sloth, pos.x, pos.y, imageSize, imageSize); //eco
         console.log(name);
       }
