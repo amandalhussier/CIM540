@@ -19,7 +19,7 @@ var myMap;
 var canvas;
 var meteorites;
 
-var imageSize = 30;
+var imageSize = 50;
 
 var cheetah;
 var croc;
@@ -41,7 +41,7 @@ function preload(){
   elephant = loadImage("images/Elephant.png");
   jaguar = loadImage("images/Jaguar.png");
   scholar = loadImage("images/Scholarship.png");
-  sloth = loadImage("images/Scholarship.png");
+  sloth = loadImage("images/Sloth.png");
 
 
 }
@@ -90,10 +90,10 @@ function drawMeteorites() {
       //size = map(size, 558, 60000000, 1, 25) + myMap.zoom();
 
 
-      var cityDist  = dist(mouseX,mouseY, pos.x + 10 , pos.y + 10 );
+      var cityDist  = dist(mouseX,mouseY, pos.x + 20 , pos.y + 20 );
 
       if(cityDist < 20){
-        text(textInfo, pos.x + 30 , pos.y + 30 );
+        text(textInfo, pos.x + 50 , pos.y + 50 );
       }
 
 //Cheetah,
