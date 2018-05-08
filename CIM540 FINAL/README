@@ -1,0 +1,16 @@
+
+<h2>3 Original Ideas:</h2>
+<ul>
+<li>1.	Interactive Map</li>
+<li>2.	Interactive game on the map, picking up animals along the globe</li>
+<li>3.	A music/DJ project (unrelated to the Magill endowment)</li>
+</ul>
+
+<p>I chose the Interactive Map. </p>
+<h3>•	Why are you making this project? What is your motivation?</h3>
+<p>	I am making this project for my public relations campaign’s client, the Ron Magill Conservation Endowment. Our research shows that people will only make a donation to an endowment if they are 100% sure of where the money is going and how it is being used. I decided to use this opportunity to create an interactive map showing exactly where the endowment donates money, and how it is benefitting that area. </p>
+<h3>•	What are your inputs/outputs?</h3>
+<p>	I used the mappa library, specifically the leaflet map. This allowed me to create pinpoints on the map with a corresponding excel document, giving me the ability to place the images of animals on the exact latitude and longitude of the leaflet map. Then, by clicking the image, text appears (with a sentence explaining how the money is helping that animal, or what school the scholarship is going to). </p>
+<h3>•	Who is the target audience for your project/Where will it  be displayed?</h3>
+<p>	This project will be displayed on the Ron Magill Conservation Endowment website, on the donation page. This was also displayed during the presentation our campaigns class gave to our client, which was a large, catered event, completely filling Shoma Hall. The target audience is anyone going to the endowment’s website. </p>
+
